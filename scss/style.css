@@ -388,6 +388,34 @@ a {
 }
 
 /* ============================================= */
+/*              Images                           */
+/* ============================================= */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 .btn {
@@ -402,22 +430,62 @@ a {
 
 .default {
   background-color: #51ddfc;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.info:hover {
+  background-color: #bdafd9;
 }
 
 .success {
   background-color: #63cc82;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.success:hover {
+  background-color: #9ddfb0;
 }
 
 .warning {
   background-color: #fd7856;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -667,33 +735,5 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
-}
-
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-.img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #ccc;
-}
-
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */

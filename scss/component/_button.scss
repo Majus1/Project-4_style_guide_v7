@@ -1,0 +1,38 @@
+// This is where the BUTTONS at :::::::::
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: $small-top-margin;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: $edge-curve-s;
+  }
+  
+  .default {
+    background-color: $def-btn-color;
+  }
+  
+  .error {
+    background-color: $err-btn-color;
+  }
+  
+  .info {
+    background-color: $inf-btn-color;
+  }
+  
+  .success {
+    background-color: $suc-btn-color;
+  }
+  
+  .warning {
+    background-color: $war-btn-color;
+  }
+  
+  
+  
